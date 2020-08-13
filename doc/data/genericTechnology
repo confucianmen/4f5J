@@ -1,0 +1,31 @@
+[
+  {
+	"title":"通用技巧",
+	"content":[
+		{
+			"title":"Adobe Photoshop CS6 实训课程",
+			"detail":"Adobe Photoshop CS6 实训课程",
+			"img":"../img/gen/gen1.jpg",
+			"href":"http://wru.skillcloud.cn/courseinfo/detail/clacode/15580184142331"
+		},
+		{
+			"title":"交互式课件多场景应用范例-答疑演示课程",
+			"detail":"交互式课件多场景应用范例-答疑演示课程。",
+			"img":"../img/gen/gen2.png",
+			"href":"http://wru.skillcloud.cn/courseinfo/detail/clacode/15584306129165"
+		},
+		{
+			"title":"使用交互式课件制作工具制作word分栏课件2",
+			"detail":"使用交互式课件制作工具制作word分栏课件2",
+			"img":"../img/gen/gen3.jpg",
+			"href":"http://wru.skillcloud.cn/courseinfo/detail/clacode/15584328882065"
+		},
+		{
+			"title":"告别教科书 轻松入门摄影基础",
+			"detail":"告别教科书 轻松入门摄影基础。",
+			"img":"../img/gen/sheying1.jpg",
+			"href":"https://study.163.com/course/introduction/1005529015.htm"
+		}
+	]
+  }
+]

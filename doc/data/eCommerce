@@ -1,0 +1,36 @@
+[
+  {
+	"title":"淘宝电商",
+	"content":[
+	  {
+		"title":"淘宝运营-从新手到大师",
+		"detail":"适合0基础想做好淘宝的人，内容从怎么选品开店开始讲起，逐渐深入，循序渐进，会一直讲到高级运营的内容。",
+		"img":"../img/eCommerce/taobao/1.webp",
+		"href":"https://study.163.com/course/introduction/1005603005.htm"
+	  },
+	  {
+		"title":"淘宝运营新手开店找货源店铺定位",
+		"detail":"淘宝运营新手开店找货源店铺定位",
+		  "img":"../img/eCommerce/taobao/2.webp",
+		"href":"https://study.163.com/course/introduction/1006462016.htm"
+	  }
+	]
+  },
+	{
+		"title":"社交&内容营销",
+		"content":[
+			{
+				"title":"如何做红人 网红创业者指南",
+				"detail":"纯属兴趣爱好想做网红红人，爱分享爱美喜欢尝试新鲜事物。",
+				"img":"../img/eCommerce/shejiao/1.webp",
+				"href":"https://study.163.com/course/introduction/1209043830.htm"
+			},
+			{
+				"title":"微店商品朋友圈推广营销培训教程",
+				"detail":"微店卖家，微商，零基础，想在微店平台开店，想系统学习微店营销的人",
+				"img":"../img/eCommerce/shejiao/2.webp",
+				"href":"https://study.163.com/course/introduction/1005523019.htm"
+			}
+		]
+	}
+]

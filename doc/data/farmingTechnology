@@ -1,0 +1,36 @@
+[
+  {
+	"title":"畜牧养殖",
+	"content":[
+	  {
+		"title":"猪栏数量测算",
+		"detail":"猪栏数量测算。",
+		"img":"../img/farming/xumu1.PNG",
+		"href":"http://www.nmjy.net.cn/Home/ClassDetail/73"
+	  },
+	  {
+		"title":"饲料配方设计四大原则",
+		"detail":"饲料配方设计四大原则",
+		  "img":"../img/farming/xumu2.PNG",
+		"href":"http://www.nmjy.net.cn/Home/ClassDetail/74"
+	  }
+	]
+  },
+	{
+		"title":"水产养殖",
+		"content":[
+			{
+				"title":"池塘青虾养殖水质测定及调控技术",
+				"detail":"池塘青虾养殖水质测定及调控技术",
+				"img":"../img/farming/shuchan1.PNG",
+				"href":"http://www.nmjy.net.cn/Home/ClassDetail/46"
+			},
+			{
+				"title":" 池塘十水槽循环流水高效养殖技术",
+				"detail":" 池塘十水槽循环流水高效养殖技术",
+				"img":"../img/farming/shuichan2.PNG",
+				"href":"http://www.nmjy.net.cn/Home/ClassDetail/62"
+			}
+		]
+	}
+]

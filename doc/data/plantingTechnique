@@ -1,0 +1,61 @@
+[
+  {
+	"title":"粮食蔬菜种植",
+	"content":[
+	  {
+		"title":"番茄整枝技术",
+		"detail":"番茄整枝技术适用于大棚番茄种植。",
+		"img":"../img/plant/shucai1.jpg",
+		"href":"http://www.nmjy.net.cn/Home/ClassDetail/8"
+	  },
+	  {
+		"title":"桑园大球盖菇栽培技术模式",
+		"detail":"桑园大球盖菇栽培技术模式适合大棚菌类种植培养。",
+		  "img":"../img/plant/shucai2.PNG",
+		"href":"http://www.nmjy.net.cn/Home/ClassDetail/64"
+	  },
+		{
+			"title":"水稻种子生产加工虚拟系统",
+			"detail":"水稻种子生产加工虚拟系统。",
+			"img":"../img/plant/zhongzhi1.jpg",
+			"href":"https://www.icve.com.cn/portalproject/themes/default/8w58avulsbdorpydrlvika/sta_page/feature/shui-dao-zhong-zi-sheng-chan-xu-ni-xi-tong.htm"
+		}
+	,
+		{
+			"title":"种子博物馆",
+			"detail":"种子博物馆。",
+			"img":"../img/plant/zhongzhi2.jpg",
+			"href":"https://www.icve.com.cn/portalproject/themes/default/8w58avulsbdorpydrlvika/sta_page/index.html?projectId=8w58avulsbdorpydrlvika"
+		}
+	]
+  },
+	{
+		"title":"园林种植",
+		"content":[
+			{
+				"title":"园林绿化种植技术要点概述",
+				"detail":"园林绿化施工原则、施工工序、整地与定点放线技术要点、园林植物种植养护技术要点",
+				"img":"../img/plant/yuanlin1.jpg",
+				"href":"https://study.163.com/course/introduction/1209046880.htm"
+			},
+			{
+				"title":" 水平型插花",
+				"detail":" 水平型插花",
+				"img":"../img/plant/yuanlin2.PNG",
+				"href":"http://www.nmjy.net.cn/Home/ClassDetail/80"
+			},
+			{
+				"title":"杜鹃花的盘枝与造型技术",
+				"detail":"杜鹃花的盘枝与造型技术",
+				"img":"../img/plant/yuanlin3.png",
+				"href":"http://www.nmjy.net.cn/Home/ClassDetail/32"
+			},
+			{
+				"title":"园林树木的栽植",
+				"detail":"所属项目: 园林技术   项目来源: 国家项目",
+				"img":"../img/plant/yuanlin4.jpg",
+				"href":"https://www.icve.com.cn/portal/weikeinfo?weikeid=1jxnalsnf4rij1enftu72q"
+			}
+		]
+	}
+]

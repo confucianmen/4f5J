@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>乡智网</title>
+    <link href="./plugin/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="./common/img/favicon.png" rel="shortcut icon" type="image/x-icon">
+    <link rel="stylesheet" href="./doc/css/login.css">
+    <script src="common/js/jquery-1.8.2.min.js"></script>
+    <script src="plugin/bootstrap/js/bootstrap.min.js"></script>
+    <script src="common/js/jquery.cookie.js"></script>
+    <script src="doc/js/login.js"></script>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <a class="logo-div" href="http://www.iotwedora.com/cloud/">
+            <img class="logo" src="./common/img/logo.png">
+            <div class="title">乡智网</div>
+        </a>
+        <ul class="header-nav">
+            <li class="nav-item">
+                <a href="#" title="乡智网" class="about_hongdian">关于我们</a>
+            </li>
+            <li class="nav-item">|</li>
+            <li class="nav-item">
+                <a href="#" title="点击获取我们的详细联系方式" class="connect_hongdian">联系我们</a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="background-wall ">
+        <div class="bg-icon"></div>
+        <div class="login-form-wrapper">
+            <div class="form-div">
+                <div class="form-label">
+                    <div class="login-label">用户登录</div>
+                </div>
+                <form id="login-form" class="login-form">
+                    <div title="请输入用户名" class="form-group uname">
+                        <i class="clip-user-3"></i>
+                        <input type="text" class="form-control login-user-id" placeholder="请输入用户名" value="" id="userId" name="userId">
+                    </div>
+                    <div title="请输入密码" class="form-group pwd">
+                        <input type="password" class="form-control login-pwd" placeholder="请输入密码" value="" id="pwd" name="pwd">
+                    </div>
+                    <div title="错误提示" class="form-group error" style="display: none;">
+                        <div class="tip_block">
+                            <span id="tip_text"></span>
+                        </div>
+                    </div>
+                    <div title="点击这里登录平台" class="form-group login">
+                        <button type="button" id="submit" class="login-btn">登 录</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="footer-layout y-row">
+            <div class="company">Copyright©2019 乡智网 版权所有</div>
+            <div class="certificate">鄂ICP备XXXXXXX号 [ 鄂ICP备XXXXXXXX号-1 ]</div>
+        </div>
+    </div>
+
+</div>
+</body>
+</html>

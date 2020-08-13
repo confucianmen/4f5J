@@ -1,0 +1,195 @@
+.device-access-tabs-title{
+    min-height: 40px;
+    /*width: 96%;*/
+    /*margin: 0 auto;*/
+    /*margin: 0 25px;*/
+}
+.device-access-tabs-title a, .device-access-tabs-title a:hover,.device-access-tabs-title a:active{
+    text-decoration: none;
+}
+
+.device-access-tabs-title h2{
+    height: 50px;
+    line-height: 30px;
+    /*line-height: 50px \9;*/
+    font-size: 15px;
+    border-bottom: 2px solid #ebebeb;
+    position: relative;
+    padding: 10px 20px 8px;
+    /*padding: 0px 20px \9;*/
+    margin: 0;
+}
+.device-access-tabs{
+    background: #f2f2f2;
+    /*width: 96%;*/
+    /*margin: 0 auto;*/
+    /*margin: 0 25px;*/
+    margin-top: 30px;
+}
+.register-img{
+    width: 100%;
+    margin: 15px 0;
+    /*text-align: center;*/
+    /*border: 1px solid #e5ebef;*/
+}
+.register-img img{
+    width: 850px;
+    margin: 0 auto;
+}
+.register-tips{
+    color: rgb(255, 102, 0);
+    margin: 15px 0;
+    padding-top: 15px;
+}
+.tab-pane strong{
+    font-size: 16px;
+}
+.tab-pane p{
+    margin: 10px 0;
+    font-size: 16px;
+}
+.step-content-wrap{
+    margin: 15px 0;
+    padding: 20px 0;
+}
+.step-content{
+    margin: 15px 0;
+    padding: 0 25px;
+    border: 1px solid #e5ebef;
+}
+
+#telecontrol-tab-content .step-content-wrap{
+    padding:0;
+}
+.telecontrol-nav-tab .nav-tabs{
+    width: 100%;
+}
+
+.telecontrol-nav-tab .nav-tabs > li {
+    width: auto;
+    text-align: center;
+}
+
+
+/*  ==== �û�����  ====*/
+.fadeback-content{
+    padding: 20px 0;
+}
+.fadeback-content-title{
+    margin: 0 0 20px;
+    height: 20px;
+}
+.fadeback-form-wrap{
+    font-size: 14px;
+}
+.fadeback-form-wrap p {
+    line-height: 1.8;
+}
+.fadeback-form li {
+    margin-bottom: 20px;
+    position: relative;
+}
+.fadeback-form-wrap .fadeback-faq-title {
+    float: left;
+    width: 6em;
+    text-align: right;
+    height: 34px;
+    line-height: 34px;
+}
+.fadeback-form-wrap .fadeback-faq-detail{
+    overflow: hidden;
+    zoom: 1;
+    float: left;
+}
+.fadeback-form-wrap .fadeback-faq-detail .input-text{
+    width: 180px;
+    height: 34px;
+    margin-left: 2px;
+}
+.fadeback-form-wrap .fadeback-faq-detail .input-textarea {
+    /*width: 360px;*/
+    /*height: 142px;*/
+    width: 500px;
+    height: 200px;
+    color: #333;
+    font-size: 14px overflow: auto;
+    vertical-align: top;
+    padding: 4px;
+}
+.fadeback-faq-code-input-wrap{
+
+}
+.fadeback-faq-code-input{
+    width: 180px;
+    height: 34px;
+    margin-left: 2px;
+}
+.fadeback-code-img {
+    line-height: 34px;
+    height: 34px;
+    margin-left: 13px;
+    background-color: #F1ECEC;
+    padding: 0 8px;
+    word-spacing: 8px;
+    letter-spacing: 2px;
+    font-style: italic;
+    font-style: oblique;
+    font-style: normal;
+    font-family: ΢���ź�;
+    font-size: 15px;
+    width: 80px;
+    text-align: center;
+    float: left;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    background: rgb(255, 255, 255);
+    /*margin-top: -3px;*/
+    margin-left: 20px;
+    border:1px solid #2FA5FD;
+    padding: 5px 15px;
+}
+.fadeback-code-refresh {
+    float: left;
+    font-family: "΢���ź�";
+    font-size: 16px;
+    color: #288fe1;
+    margin-top: 5px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.fadeback-footer{
+    position: fixed;
+    bottom: 0px;
+    left: 0;
+}
+.tip_block {
+    /*padding: 10px;*/
+    margin-top: 30px;
+    /*font-family: 'Microsoft YaHei';*/
+    /*font-size: 15px;*/
+    /*color: #a94442;*/
+    /*background-color: #f2dede;*/
+    /*border-color: #ebccd1;*/
+    /*border-radius: 4px;*/
+    /*display: none;*/
+    /*width: 450px;*/
+
+    color: #ff2798;
+    display: none;
+}
+.fadeback-form-wrap .btn{
+    padding:10px 0
+}
+.submit-btn{
+    padding: 5px 10px;
+}
+.error-tips{
+    color: #ff2798;
+    display: none;
+}
+
+.fadeback-loading{
+    padding: 10px 20px;
+    display: inline-block;
+}

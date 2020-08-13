@@ -1,0 +1,202 @@
+.about-banner{
+    min-width: 1200px;
+    width: 100%;
+    height: 400px;
+    background: url(../img/about/about_us.jpg) no-repeat;
+    background-size: 100% auto;
+}
+.about-content{
+    width: 100%;
+    margin: 0 auto;
+    padding: 79px 15% 30px;
+}
+.about-content-part1{
+    width: 100%;
+}
+.about-content-part1-left{
+    float: left;
+    width: 45%;
+}
+.about-content-part1-right{
+    float: right;
+    width: 50%;
+}
+.about-content-part3-right{
+    float: right;
+    width: 45%;
+}
+.about-content-part1 .title{
+    width: 100%;
+    font-size: 24px;
+    color: #2FA5FD;
+}
+.about-content-part1 .text{
+    width: 100%;
+    font-size: 16px;
+    color: #1B1D1F;
+    text-align: justify;
+}
+.about-content-part1 .part1-logo{
+    width: 100%;
+    height: 300px;
+    background: url(../img/about/sv_bg.png) no-repeat;
+    background-size: 100% auto;
+}
+.about-content-part3-right .part3-logo{
+    width: 100%;
+    height: 265px;
+    background: url(../img/about/wedora_bg.png) no-repeat;
+    background-size: 100% auto;
+}
+.about-content-part2{
+    margin-top: 50px;
+}
+.about-timeline-block{
+    width: 100%;
+    border-left: 1px solid #2FA5FD;
+    margin: 5px 15px 0;
+    position: relative;
+    padding-bottom: 20px;
+    /* min-height: 135px; */
+    z-index: 100;
+}
+.about-timeline-block-last{
+    width: 100%;
+    border-left: 0px solid #2FA5FD;
+    margin: 5px 15px 0;
+    position: relative;
+    padding-bottom: 0px;
+    z-index: 100;
+}
+.about-timeline-icon-circle{
+    width: 26px;
+    height: 22px;
+    border-radius: 50%;
+    position: absolute;
+    left: -12px;
+    top: 0px;
+    z-index: 102;
+    background: #ffffff;
+    background-image: url(../img/about/piont.png);
+    background-repeat: no-repeat;
+    background-size: 26px 20px;
+    /* background: transparent; */
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+    transition: all 0.2s ease-in;
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+}
+.about-timeline-icon-trans{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: -2px;
+    top: 0px;
+    z-index: 102;
+    background: #ffffff;
+    background-image: url(../img/about/sj.png);
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    /* background: transparent; */
+    text-align: center;
+    line-height: 40px;
+}
+.about-timeline-content{
+    /* padding: 20px 30px; */
+    padding: 0px 30px 0px;
+    border-radius: 5px;
+    position: relative;
+    font-size: 14px;
+    color: #2FA5FD;
+}
+.about-advantage-wrap{
+    width: 100%;
+    height: 400px;
+    background: #F1F7FB;
+}
+.about-advantage{
+    width: 75%;
+    min-width: 900px;
+    height: 100%;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+.about-advantage-title{
+    font-size: 24px;
+    color: #1B1D1F;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.about-advantage-list{
+    width: 100%;
+}
+.about-advantage-item{
+    float: left;
+    width: 20%;
+}
+.about-advantage-icon{
+    width: 90px;
+    height: 90px;
+    margin: 0 auto;
+    text-align: center;
+}
+.about-advantage-icon1{
+    background: url(../img/about/1.png) no-repeat;
+    background-size:90px 90px;
+}
+.about-advantage-icon2{
+    background: url(../img/about/2.png) no-repeat;
+    background-size:90px 90px;
+}
+.about-advantage-icon3{
+    background: url(../img/about/3.png) no-repeat;
+    background-size:90px 90px;
+}
+.about-advantage-icon4{
+    background: url(../img/about/4.png) no-repeat;
+    background-size:90px 90px;
+}
+.about-advantage-icon5{
+    background: url(../img/about/5.png) no-repeat;
+    background-size:90px 90px;
+}
+.about-advantage-item-title{
+    color: #1B1D1F;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.about-advantage-content{
+    color: #575A5C;
+    font-size: 14px;
+    text-align: center;
+    padding: 0 20px;
+}
+.about-map{
+    width: 100%;
+    margin: 0;
+    height: 529px;
+    background: url(../img/about/map-01.png) no-repeat;
+    background-size: 100% auto;
+}
+.about-wave{
+    margin-top: 0;
+}
+.banner-h1{
+    font-size: 32px;
+    color: #ffffff;
+    padding-left: 200px;
+    padding-top: 60px;
+}
+.banner-h2{
+    font-size: 18px;
+    color: #ffffff;
+    padding-left: 300px;
+}
+.jiansheInfo{
+    color: #007AFF;
+    font-size: 12px;
+}

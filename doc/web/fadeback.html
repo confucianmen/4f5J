@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta property="wb:webmaster" content="113fb7a9d5e860d4">
+    <title>用户反馈</title>
+    <link href="../../common/img/favicon.png" rel="shortcut icon" type="image/x-icon">
+    <link rel="stylesheet" href="../../plugin/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../common/css/public.css">
+    <link rel="stylesheet" href="../css/device.css">
+</head>
+<body>
+<div class="mian">
+    <div class="header-wrap header-help other-header-wrap-color clearfix">
+        <a href="index.html">
+            <div class="header-logo"></div>
+            <div class="header-title">乡智网</div>
+        </a>
+
+        <div class="header-menu-wrap">
+            <ul class="clearfix">
+                <li>
+                    <div class="header-menu">
+                        <a href="townNews.html">乡智新闻</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="header-menu">
+                        <a href="xzxz.html">乡智乡志</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="header-menu">
+                        <a href="blockReturnToPoverty.html">乡智技术</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="header-menu">
+                        <a href="eCommerce.html">乡智商业</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <div class="header-no-login clearfix">
+            <div class="header-userinfo">
+                <span>欢迎来到乡智网</span>
+                <a class="header-login">登录</a>
+                <!--<a class="header-register">免费注册</a>-->
+            </div>
+        </div>
+        <div class="header-user" style="margin-right: 0px; display: none;">
+            <ul class="cur_user_info">
+                <li class="logout_li">
+                    <div class="user_operate"> </div>
+                </li>
+                <li class="user_name">
+                    <div class="user_text">欢迎你，<span class="header-userName">乡智网用户</span></div>
+                </li>
+            </ul>
+            <div id="user-logout" class="user_logout_container user_logout_container_default">
+                <div class="user_logout_container_up"> </div>
+                <img class="header-userInfodetail-img" src="../../common/img/sculpture_1.png">
+                <div class="header-userInfodetail-info">
+                    <div class="header-userName">乡智网用户</div>
+                    <!--<div class="header-rolename">系统管理员</div>-->
+                </div>
+                <div class="header_logout_option">
+                    <div class="user_logout user_logout_default"></div>
+                    <div class="user_logout_clicktext" style="color: rgb(132, 131, 131);">退出</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="content">
+        <div class="device-narrow-main">
+            <div class="device-access-tabs-title">
+                <h2>
+                    <!--<span class="accessTitle sec-home-icon" title="回到首页"></span>-->
+                    <!--<span class="sec-arrow-right">用户反馈</span>-->
+
+                    <span class="accessTitle sec-home-icon" title="回到首页"></span>
+                    <span class="">
+                        <i class="icon-path"></i>
+                        <span  id="accessTitle">用户反馈</span>
+                    </span>
+                </h2>
+            </div>
+
+            <div class="device-narrow-main-content fadeback-content">
+                <div class="fadeback-content-title">
+                    <strong><p>用户意见与建议</p></strong>
+                </div>
+
+                <div class="fadeback-form-wrap" id="show_question">
+                    <form class="fadeback-form">
+                        <div>
+                            <ul>
+                                <li class="clearfix">
+                                    <label class="fadeback-faq-title"><span style="color:#f00">*</span> 问题描述：</label>
+                                    <span class="fadeback-faq-detail">
+                                        <textarea autofocus class="input-textarea" name="title"
+                                                  id="suggestion-description"                                                  
+                                                  placeholder="请填写您使用过程中遇到的问题及现象描述、个人联系方式等信息，以便于我们更快更准的帮您解决问题。" maxlength="400" minlength="8"></textarea>
+										<span id="desc-error-tips" class="tip_block"></span>
+									</span>
+                                </li>
+                                <li class="clearfix">
+                                    <label class="fadeback-faq-title">
+                                        <span style="color:#f00">*</span> 电子邮箱：
+                                    </label>
+                                    <span class="fadeback-faq-detail">
+                                        <input id="useremail"
+                                               class="input-text required" type="text"
+                                               name="useremail"
+                                               placeholder="请您留下真实电子邮箱">
+                                        <span id="email-error-tips" class="error-tips"></span>
+                                    </span>
+                                </li>
+                                <li class="clearfix">
+                                    <label class="fadeback-faq-title"><span style="color:#f00">*</span>验证码：</label>
+                                    <span class="fadeback-faq-detail">
+                                        <!--<input class="input-text required" type="text" name="checkcode">-->
+                                        <div class="fadeback-faq-code-input-wrap">
+                                            <input class="fadeback-faq-code-input">
+                                        </div>
+                                    </span>&nbsp;&nbsp;
+                                    <div id="fadeback-code" class="fadeback-code-img" title="点击更换验证码"
+                                         style="position: relative; overflow: hidden; cursor: pointer; background: rgb(255, 255, 255);">
+                                    </div>
+                                    <div class="fadeback-code-refresh">换一张</div> 
+									<span id="code-error-tips" class="error-tips"></span>									
+                                </li>
+                            </ul>
+                            <!--<div class="btn">-->
+                                <!--&lt;!&ndash;<button onclick="javascript:fadeback_submit()"><b>立即提交</b></button>&ndash;&gt;-->
+                                <!--<input class="submit-btn" type="button" value="立即提交" onclick="javascript:fadeback_submit()">-->
+
+                            <!--</div>-->
+                            <p class="input">
+                                <input type="button" value="立即提交" class="btn_blue_x"
+                                       onclick="javascript:fadeback_submit()">
+                            </p>
+                            <div class="loading" style="display: none"></div>
+                            <!--<div class= "fadeback-loading" style="display: none">-->
+                                <!--<div class="loading"></div>-->
+                            <!--</div>-->
+                        </div>
+                    </form>
+                </div>
+                <div id="feedback_result" style="display:none;">
+                    <p><span class="icon-ok"></span> 提交成功！非常感谢您的反馈，我们会继续努力做到更好！</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- 波浪-->
+<div class="wave-box">
+
+    <div class="marquee-box" id="marquee-box">
+        <div class="marquee">
+            <div class="wave-list-box" id="wave-list-box1">
+                <ul>
+                    <li>
+                        <img height="223px;" src="../../common/img/wave3.png"></li>
+                </ul>
+            </div>
+            <div class="wave-list-box" id="wave-list-box2">
+                <ul>
+                    <li>
+                        <img height="223px;" src="../../common/img/wave3.png"></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="marquee-box" id="marquee-box2">
+        <div class="marquee">
+            <div class="wave-list-box" id="wave-list-box3">
+                <ul>
+                    <li><img height="223px;" src="../../common/img/wave2.png"></li>
+                </ul>
+            </div>
+            <div class="wave-list-box" id="wave-list-box4">
+                <ul>
+                    <li><img height="223px;" src="../../common/img/wave2.png"></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="marquee-box" id="marquee-box3">
+        <div class="marquee">
+            <div class="wave-list-box" id="wave-list-box5">
+                <ul>
+                    <li><img height="223px;" src="../../common/img/wave1.png"></li>
+                </ul>
+            </div>
+            <div class="wave-list-box" id="wave-list-box6">
+                <ul>
+                    <li><img height="223px;" src="../../common/img/wave1.png"></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="footer">
+    <div class="footer-about-link">
+        <a href="about.html">关于我们</a>
+        <!--<a href="http://www.hongdian.com/AboutHongDian/Contact_101040010.html">联系我们</a>-->
+        <!--<a href="http://www.hongdian.com/JoinUs/Index.html">加入我们</a>-->
+        <a>联系我们</a>
+        <a>加入我们</a>
+    </div>
+    <div class="footer-company-info">
+        <span>乡智网</span>
+        <span>鄂ICP备XXXXX号</span>
+    </div>
+    <div class="footer-copyright">Copyright©2015-2019 乡智网 版权所有</div>
+</div>
+<script src="../../common/js/jquery-1.8.2.min.js"></script>
+<script src="../../plugin/bootstrap/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="../../common/js/jquery.cookie.js"></script>
+<script src="../../common/js/do_toTop.js"></script>
+<script src="../../common/js/codeUtil.js"></script>
+<script src="../../common/js/fadeback_submit.js"></script>
+<script src="../js/fadeback.js"></script>
+</body>
+</html>

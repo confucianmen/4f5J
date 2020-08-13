@@ -1,0 +1,585 @@
+/* === �ص����� ===*/
+.tc-15-bubble {
+    position:absolute;
+    color:#404A58
+}
+.tc-15-bubble .tc-15-bubble-inner:after,.tc-15-bubble .tc-15-bubble-inner:before {
+    font-size:0;
+    position:absolute;
+    width:0;
+    height:0;
+    content:'';
+    border:8px dashed transparent
+}
+.tc-15-bubble .tc-15-bubble-inner:after {
+    border:7px dashed transparent
+}
+.tc-15-bubble-inner {
+    font-size:12px;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+    padding:8px 10px;
+    border:1px solid #e4e6e9;
+    border-radius:2px;
+    background-color:#fff;
+    line-height:1.6;
+    position:static !important;
+    left:50%;
+    top:50%
+}
+.tc-15-bubble-inner-fadeback{
+    background-color:transparent;
+    border:none;
+    padding:0;
+}
+.tc-15-bubble-right .tc-15-bubble-inner:after,.tc-15-bubble-right .tc-15-bubble-inner:before {
+    top:inherit;
+    bottom:inherit;
+    left:100%;
+    margin-left:-1px;
+    border-left-style:solid
+}
+.tc-15-bubble-right .tc-15-bubble-inner:before {
+    margin-top:-8px;
+    border-left-color:#e4e6e9
+}
+.tc-15-bubble-right .tc-15-bubble-inner:after {
+    margin-top:-7px;
+    border-left-color:#fff
+}
+.tc-15-bubble-left .tc-15-bubble-inner:after,.tc-15-bubble-left .tc-15-bubble-inner:before {
+    top:inherit;
+    bottom:inherit;
+    right:100%;
+    margin-right:-1px;
+    border-right-style:solid
+}
+.tc-15-bubble-left .tc-15-bubble-inner:before {
+    margin-top:-8px;
+    border-right-color:#b3b7bf
+}
+.tc-15-bubble-left .tc-15-bubble-inner:after {
+    margin-top:-7px;
+    border-right-color:#fff
+}
+.icon-tick {
+    display:inline-block;
+    width:68px;
+    height:73px;
+    background-image:url(../img/help-componments.png);
+    background-repeat:no-repeat;
+    background-position:-124px 0px
+}
+.tc-15-btn {
+    height:33px;
+    min-width:24px;
+    padding:0 20px;
+    border:1px solid #0064b6;
+    border-radius:3px;
+    background:#0071ce;
+    color:#fff;
+    font-size:14px;
+    line-height:33px;
+    text-align:center
+}
+.tc-15-btn:focus,.tc-15-btn:hover {
+    border-color:#005da8;
+    background:#006ba2
+}
+.tc-15-btn.weak {
+    background:#fcfcfc;
+    border-color:#d1d2d3;
+    color:#0071ce
+}
+.tc-15-btn.s {
+    height:26px;
+    min-width:21px;
+    padding:0 15px;
+    font-size:12px;
+    line-height:24px
+}
+.tc-15-btn.disabled {
+    border-color:#d5d5d5;
+    background:#e8e8e8;
+    color:#a2a2a2;
+    cursor:default
+}
+.tc-15-radio-wrap {
+    margin-right:20px;
+    font-size:14px;
+    cursor:pointer
+}
+.tc-15-radio-wrap .tc-15-radio {
+    vertical-align:-3px;
+    margin-right:5px
+}
+.tc-15-radio[type=radio] {
+    width:14px;
+    height:14px;
+    cursor:pointer;
+    vertical-align:middle;
+    outline:0;
+    background:0 0\9;
+    background-image:url(../img/help-componments.png);
+    -webkit-appearance:none;
+    background-position:-194px -30px
+}
+.tc-15-radio[type=radio]:focus,.tc-15-radio[type=radio]:hover {
+    background-image:url(../img/help-componments.png);
+    background-position:-194px -30px
+}
+.tc-15-radio[type=radio]:checked,.tc-15-radio[type=radio]:checked:hover {
+    background-image:url(../img/help-componments.png);
+    background-position:-194px -94px
+}
+.tc-15-radio[type=radio]:checked:focus {
+    background-image:url(../img/help-componments.png);
+    background-position:-194px -78px
+}
+.tc-15-radio[type=radio][disabled] {
+    background-image:url(../img/help-componments.png);
+    background-position:-194px -62px
+}
+.tc-15-radio[type=radio][disabled]:checked {
+    background-image:url(../img/help-componments.png);
+    background-position:-194px -46px
+}
+.tc-15-radio[type=radio]+label {
+    margin-left:5px;
+    color:#404a58
+}
+.tc-15-input-text-wrap {
+    vertical-align:middle;
+    display:inline-block;
+    font-size:0
+}
+.tc-15-input-text {
+    font-size:14px;
+    height:27px;
+    width:315px;
+    display:inline-block;
+    padding:5px 10px;
+    border:1px solid #d1d2d3;
+    border-radius:3px;
+    color:#171d25
+}
+.tc-15-input-text-wrap.m .tc-15-input-text {
+    height:15px;
+    line-height:15px
+}
+.tc-15-input-text:focus,.tc-15-input-text:hover {
+    border-color:#0071ce
+}
+.tc-15-input-text.disabled {
+    background-color:#f0f1f2;
+    color:#a2a2a2;
+    background-image:none;
+    cursor:default
+}
+.tc-15-rich-dialog .tc-15-input-text {
+    width:315px
+}
+.tc-15-input-text-wrap.m .tc-15-input-text,.tc-15-rich-dialog .tc-15-input-text {
+    font-size:12px
+}
+.tc-15-input-text.shortest {
+    width:28px
+}
+.tc-15-input-tips {
+    font-size:12px;
+    color:#ababab;
+    clear:both;
+    margin-top:5px;
+    line-height:13px
+}
+.tc-15-input-text-wrap.error>.tc-15-input-text {
+    border-color:#e1504a;
+    color:#e1504a
+}
+.tc-15-input-text-wrap.succeed>.tc-15-input-text-verify {
+    display:inline-block
+}
+.tc-15-input-text-wrap.error>.tc-15-input-text-verify {
+    display:inline-block;
+    background-position:6px -17px;
+    color:#e1504a
+}
+.tc-15-input-text-wrap.error>.tc-15-input-tips {
+    color:#e1504a
+}
+.tc-15-slider-wrap .tc-15-input-text {
+    margin-right:5px;
+    color:#0071ce
+}
+.tc-15-list-wrap.form .tc-15-input-text-wrap.m {
+    margin-top:5px
+}
+.tc-15-rich-dialog .tc-15-list-wrap.form .tc-15-input-text-wrap.m {
+    margin-top:0
+}
+.tc-15-slider-wrap .tc-15-input-text-wrap {
+    font-size:12px
+}
+.tc-15-input-textarea {
+    height:115px;
+    padding:10px;
+    border:1px solid #d1d2d3;
+    line-height:normal;
+    border-radius:3px;
+    text-align:left;
+    width:315px
+}
+.tc-15-input-text-wrap.error>.tc-15-input-textarea {
+    border-color:#e1504a;
+    color:#e1504a
+}
+.tc-15-list-wrap li:after,.tc-15-list-wrap:after {
+    display:table;
+    clear:both;
+    content:''
+}
+.tc-15-list-tit {
+    float:left;
+    width:80px;
+    padding-right:15px;
+    text-align:right;
+    color:#171d25;
+    font-size:14px
+}
+.tc-15-list-tit[aria-required=true]:after {
+    content:"*";
+    color:#e1504a
+}
+.tc-15-list-det {
+    float:left;
+    white-space:nowrap;
+    text-overflow:ellipsis
+}
+.tc-15-list-det a {
+    color:#0071ce;
+    margin:0 .8em;
+    text-decoration:none
+}
+.tc-15-list-det a:hover {
+    text-decoration:underline
+}
+.tc-15-list-wrap li {
+    padding:10px 0
+}
+.tc-15-input-tips {
+    font-size:12px;
+    color:#ababab;
+    position:relative;
+    margin-top:5px;
+    text-align:left
+}
+.tc-15-list-det .tc-15-input-textarea {
+    float:left;
+    margin-bottom:5px
+}
+.tc-15-list-det .text-num {
+    float:left;
+    margin-left:10px;
+    color:#abaeb3;
+    font-size:12px
+}
+.tc-15-list-det .text-num .warn {
+    color:#e32310
+}
+.tc-15-list-det .text-num .normal {
+    color:#171d25
+}
+.tc-15-list-det .upload {
+    text-align:left
+}
+.tc-15-list-det .upload .upload-img {
+    width:28px;
+    height:28px;
+    background-image:url(../img/help-componments.png);
+    display:inline-block;
+    margin-right:5px;
+    vertical-align:middle;
+    background-position:-194px 0px
+}
+.tc-15-list-det .upload .upload-img img {
+    width:26px;
+    height:26px;
+    border:1px solid #d1d2d3
+}
+.tc-15-list-det .upload .upload-img:hover img {
+    opacity:.2;
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(opacity=20)"
+}
+.tc-15-list-det .upload .text-num {
+    float:none;
+    display:inline-block;
+    vertical-align:middle
+}
+.tc-15-list-det .upload button {
+    vertical-align:middle
+}
+.tc-15-list-det .upload .tc-15-btn {
+    position:relative;
+    display:inline-block;
+    vertical-align:middle;
+    margin-left:0;
+    margin-right:0
+}
+.tc-15-list-det .upload .tc-15-btn:hover {
+    text-decoration:none
+}
+.tc-15-list-det .upload .tc-15-btn input.input_file {
+    position:absolute;
+    z-index:2;
+    width:100%;
+    height:100%;
+    opacity:0;
+    filter:alpha(opacity=0);
+    left:0;
+    top:0
+}
+.tc-15-rich-dialog {
+    width:550px;
+    background:#fff
+}
+.tc-15-rich-dialog-hd {
+    padding:0 20px;
+    font-size:16px;
+    line-height:50px;
+    color:#171d25;
+    position:relative;
+    border:1px solid #dadde0;
+    border-width:1px 1px 0
+}
+.tc-15-rich-dialog-bd:after,.tc-15-rich-dialog-ft:after,.tc-15-rich-dialog-hd:after {
+    content:"";
+    display:table;
+    clear:both
+}
+.tc-15-rich-dialog-hd strong {
+    font-weight:700;
+    float:left
+}
+.tc-15-rich-dialog-bd {
+    max-height:500px;
+    padding:20px;
+    border:1px solid #dadde0;
+    min-height:50px;
+    text-align:center
+}
+.tc-15-rich-dialog-ft {
+    padding:15px 20px;
+    height:35px;
+    background:#f0f4f7;
+    border:1px solid #dadde0;
+    border-top:0;
+    position:relative
+}
+.tc-15-rich-dialog-ft-btn-wrap {
+    text-align:center;
+    position:relative;
+    z-index:0
+}
+.tc-15-rich-dialog-ft-btn-wrap>.tc-15-btn {
+    margin:0 5px
+}
+.tc-15-rich-dialog.l {
+    width:600px
+}
+.tc-15-rich-dialog-alert-icon {
+    display:inline-block;
+    padding:0 15px 0 0;
+    -webkit-user-select:none;
+    vertical-align:middle
+}
+.tc-15-rich-dialog-alert-icon>span.icon-tick {
+    vertical-align:baseline
+}
+.tc-15-rich-dialog-hd .tc-15-btn-close {
+    line-height:100;
+    display:inline-block;
+    overflow:hidden;
+    vertical-align:middle;
+    position:absolute;
+    width:11px;
+    height:12px;
+    top:20px;
+    right:20px;
+    background-image:url(../img/help-componments.png);
+    background-repeat:no-repeat;
+    background-position:-210px -46px
+}
+.tc-15-rich-dialog-hd .tc-15-btn-close:focus,.tc-15-rich-dialog-hd .tc-15-btn-close:hover {
+    background-image:url(../img/help-componments.png);
+    background-position:-210px -30px
+}
+.tc-15-rich-dialog.alert .tc-15-msg {
+    border:0;
+    background:0 0;
+    padding:0;
+    margin:0;
+    font-size:14px;
+    line-height:26px;
+    color:#171d25;
+    vertical-align:middle;
+    display:inline-block;
+    text-align:left
+}
+.tc-15-rich-dialog.alert .tc-15-msg strong {
+    font-size:18px;
+    line-height:40px;
+    color:#171d25
+}
+.tc-15-rich-dialog.alert .icon-area {
+    text-align:center
+}
+.tc-15-rich-dialog.alert .icon-area .icon-call {
+    display:inline-block;
+    width:122px;
+    height:130px;
+    background-image:url(../img/help-componments.png);
+    margin-bottom:25px;
+    background-position:0px 0px
+}
+.tc-15-rich-dialog.alert .call-num {
+    font-size:36px;
+    color:#2EA7D4;
+    margin-bottom:10px;
+    font-family:STHeiti,arial
+}
+.mod-scroll-btn {
+    position:fixed;
+    bottom:60px;
+    right:20px;
+    z-index:9901;
+}
+.mod-scroll-btn .scroll-item {
+    position:relative;
+    /*background-color:#2EA7D4;*/
+    text-align:center;
+    margin-bottom:7px;
+    border-radius:3px;
+    height:36px;
+    z-index: 100;
+}
+.mod-scroll-btn .scroll-item .scroll-icon {
+    width:40px;
+    height:36px;
+    display:inline-block;
+    border-radius:3px
+}
+.mod-scroll-btn .scroll-item-service .scroll-icon {
+    background-image:url(../img/help-componments.png);
+    background-position:-84px -132px
+}
+.mod-scroll-btn .scroll-item-qr .scroll-icon {
+    background-image:url(../img/help-componments.png);
+    background-repeat:no-repeat;
+    background-position:-42px -132px
+}
+.mod-scroll-btn .scroll-item-order .scroll-icon {
+    background-image:url(../img/help-componments.png);
+    background-repeat:no-repeat;
+    background-position:0px -132px;
+    z-index: 102;
+}
+.mod-scroll-btn .scroll-item-faq .scroll-icon {
+    z-index: 102;
+    background-color:#2EA7D4;
+    background-image:url(../img/help-componments.png);
+    background-repeat:no-repeat;
+    background-position:-84px -132px;
+}
+.mod-scroll-btn .scroll-item .tc-15-bubble {
+    right:50px;
+    display:none
+}
+.mod-scroll-btn .sb-service-ticket .tc-15-bubble {
+    top:-150px;
+    /*display: block;*/
+}
+.mod-scroll-btn .scroll-item-qr .tc-15-bubble {
+    top:-61px
+}
+.mod-scroll-btn .scroll-item .tc-15-bubble .des-text {
+    color:#5c5c5b;
+    font-size:14px;
+    text-align:center
+}
+.mod-scroll-btn .scroll-item-up .scroll-icon {
+    background-color:#2EA7D4;
+    background-image:url(../img/help-componments.png);
+    background-repeat:no-repeat;
+    background-position:-124px -75px
+}
+.mod-scroll-btn .item-selected .tc-15-bubble {
+    display:block
+}
+.mod-scroll-btn .scroll-item-call .tc-15-bubble {
+    width:210px;
+    top:4px;
+    color:#5c5c5b
+}
+.mod-scroll-btn .scroll-item-call .tc-15-bubble .tc-15-bubble-inner {
+    padding:3px 5px
+}
+.mod-scroll-btn .scroll-item-call .tc-15-bubble strong {
+    font-weight:400
+}
+.mod-scroll-btn .scroll-item-call .scroll-icon {
+    background-color:#2EA7D4;
+    background-image:url(../img/help-componments.png);
+    background-repeat:no-repeat;
+    background-position:-126px -132px
+}
+.dialog-notice {
+    width:240px;
+    padding:20px;
+    position:absolute;
+    top:100px;
+    right:50%;
+    margin-right:-140px;
+    background:#fff;
+    z-index:1000;
+    display:none
+}
+.dialog-notice h3 {
+    font-size:16px;
+    color:#333
+}
+.dialog-notice .dialog-text {
+    color:#999;
+    font-size:14px;
+    margin-top:10px
+}
+.dialog-notice .dialog-btn {
+    width:100%;
+    height:45px;
+    line-height:45px;
+    color:#fff;
+    font-size:14px;
+    margin-top:10px;
+    text-align:center;
+    background:#2EA7D4;
+    outline:0
+}
+#MAXIM {
+    content:"feu20160721160446"
+}
+.qrcode-area img{
+    width: 130px;
+    height: 130px;
+}
+.scroll-item-faq:hover{
+    cursor: pointer;
+}
+
+
+.cloud-helper-box-list-tit .hot-label{
+    background-color: #fc5900;
+    color: #fff;
+    font-size: 12px;
+    padding: 1px 8px;
+    line-height: 16px;
+    margin-left: 5px;
+}

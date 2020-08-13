@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta property="wb:webmaster" content="113fb7a9d5e860d4">
+	<title>乡智网</title>
+	<meta name="keywords" content="">
+	<meta name="description" content="Wedora Cloud">		
+	<script type="text/javascript" src="./common/js/jquery-1.8.2.min.js"></script>
+	<script type="text/javascript" src="./common/js/jquery.cookie.js"></script>	
+</head>
+
+<script>
+	$(function() {
+//		var token = getQueryString("token");
+//		var username = getQueryString("username");
+//		var password = getQueryString("password");
+		var token =$.cookie('_cookie_token');
+		var username = $.cookie("_cookie_username");
+		var password = $.cookie("_cookie_password");
+        console.log(token);
+		console.log(username);
+        console.log(password);
+
+		if(username != null && username != 'null' && password != null && password != 'null' ){
+//			var expiresDate	= new Date();
+//			expiresDate.setTime(expiresDate.getTime() + (1 * 60 * 1000));
+//			$.cookie("_cookie_token", token, {path:'/',expires:expiresDate});
+//			$.cookie("_cookie_username", username, {path:'/',expires:1});
+//			$.cookie("_cookie_password", password, {path:'/',expires:1});
+            window.location.href = "./doc/web/index.html";
+		}
+		else {
+            window.location.href = "./login.html";
+		}
+
+	})
+
+	function getQueryString(name){
+		var reg = new RegExp("(^|&)"+ name +"=([^&]*)(&|$)");
+		var r = window.location.search.substr(1).match(reg);
+		if(r != null){
+			return r[2];
+		}else{
+			return null;
+		}
+	}
+</script>
+<body>
+</body>

@@ -1,0 +1,9 @@
+{
+	"img":[
+		{"id":"010101_140523_001", "title":"首页广告1", "src":"./banner/img/banner1.jpg","sliderCss":"current", "class":"active", "href":""},
+		{"id":"010101_140523_002", "title":"首页广告2", "src":"./banner/img/banner2.jpg","sliderCss":"", "class":"","href":""},
+		{"id":"010101_140523_003", "title":"首页广告3", "src":"./banner/img/banner3.jpg","sliderCss":"", "class":"","href":""},
+		{"id":"010101_140523_004", "title":"首页广告4", "src":"./banner/img/banner4.jpg","sliderCss":"", "class":"", "href":""},
+		{"id":"010101_140523_005", "title":"首页广告5", "src":"./banner/img/banner5.jpg","sliderCss":"", "class":"","href":""}
+	]
+}
